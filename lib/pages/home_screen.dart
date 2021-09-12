@@ -12,7 +12,12 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bijaya A.'),
+        title: Text(
+          'Bijaya A.',
+          style: TextStyle(
+            fontWeight: FontWeight.w900,
+          ),
+        ),
         centerTitle: true,
         actions: [
           // IconButton(
@@ -26,7 +31,7 @@ class HomeScreen extends StatelessWidget {
         child: Icon(Icons.chevron_right_rounded),
         onPressed: () {},
       ),
-      body: Column(
+      body: ListView(
         children: [
           BannerScreen(),
           AboutMeScreen(),

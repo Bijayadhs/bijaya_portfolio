@@ -13,3 +13,13 @@ const TextStyle kNormalTitle = TextStyle(
   fontSize: 32,
   color: Colors.black,
 );
+const TextStyle kNameTitle = TextStyle(
+  fontWeight: FontWeight.w700,
+  fontSize: 24,
+  color: kPrimaryColor,
+);
+const TextStyle kBannerTitle = TextStyle(
+  fontWeight: FontWeight.w400,
+  fontSize: 16,
+  color: Colors.black54,
+);
