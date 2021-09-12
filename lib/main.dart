@@ -1,5 +1,5 @@
 import 'package:bijaya_portfolio/constants.dart';
-import 'package:bijaya_portfolio/pages/home_screen.dart';
+import 'package:bijaya_portfolio/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: kSecondaryColor,
+        scaffoldBackgroundColor: kScaffoldColor,
       ),
       home: HomeScreen(),
     );
